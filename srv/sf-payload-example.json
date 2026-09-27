@@ -1,0 +1,44 @@
+{
+  "_comment": "Payload the Advocate Agent posts to SuccessFactors Recruiting via SAP Integration Suite. Not sent in this prototype: no SF tenant available.",
+  "endpoint": "POST /odata/v2/JobApplication",
+  "payload": {
+    "candidateId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "candidateName": "Arjun R.",
+    "jobRequisitionId": "REQ-2026-0417",
+    "source": "AbilityPassport",
+    "verifiedSkills": [
+      {
+        "skill": "Problem identification",
+        "score": 9,
+        "scale": 10,
+        "evidence": "the loop mutates the list it iterates over",
+        "rubric": "debugging-v1",
+        "rubricApprovedBy": "HR lead"
+      },
+      {
+        "skill": "Edge-case awareness",
+        "score": 8,
+        "scale": 10,
+        "evidence": "an empty list should return an empty list, not throw",
+        "rubric": "debugging-v1",
+        "rubricApprovedBy": "HR lead"
+      }
+    ],
+    "accommodationEstimate": {
+      "workPreferences": ["Written instructions", "Quiet workspace"],
+      "estimatedOneTimeCost": 0,
+      "currency": "INR",
+      "note": "No cost. Source: Job Accommodation Network, 56% of accommodations cost nothing."
+    },
+    "consent": {
+      "granted": true,
+      "grantedAt": "2026-09-26T13:45:00Z",
+      "scope": "This requisition only"
+    },
+    "aiDisclosure": {
+      "scoredBy": "Capability Verification Agent",
+      "humanDecisionRequired": true,
+      "agentCanReject": false
+    }
+  }
+}
