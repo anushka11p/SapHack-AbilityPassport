@@ -1,0 +1,14 @@
+{
+  "name": "Support triage judgement",
+  "version": "v1",
+  "jobFamily": "Support",
+  "approvedBy": "[HR lead name]",
+  "approvedOn": "2026-09-26",
+  "criteria": [
+    { "skill": "Impact assessment", "descriptor": "Ranks by user impact, not by order received." },
+    { "skill": "Urgency reasoning", "descriptor": "Separates urgent from merely loud." },
+    { "skill": "Written communication", "descriptor": "Justification a colleague could act on." },
+    { "skill": "Escalation judgement", "descriptor": "Identifies what needs a human decision." }
+  ],
+  "excludedFromScoring": ["writing style", "grammar", "speed", "confidence", "personality"]
+}

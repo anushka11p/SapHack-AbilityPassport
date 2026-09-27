@@ -1,0 +1,14 @@
+{
+  "name": "Debugging and code reasoning",
+  "version": "v1",
+  "jobFamily": "Software Engineering",
+  "approvedBy": "[HR lead name]",
+  "approvedOn": "2026-09-26",
+  "criteria": [
+    { "skill": "Problem identification", "descriptor": "Locates the root cause, not just the symptom." },
+    { "skill": "Correctness of fix", "descriptor": "The failing test passes without breaking others." },
+    { "skill": "Reasoning clarity", "descriptor": "Explains what was considered and rejected, and why." },
+    { "skill": "Edge-case awareness", "descriptor": "Names at least one input that would still break it." }
+  ],
+  "excludedFromScoring": ["writing style", "grammar", "speed", "confidence", "personality"]
+}

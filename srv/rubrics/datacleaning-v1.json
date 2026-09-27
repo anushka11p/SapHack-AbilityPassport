@@ -1,0 +1,14 @@
+{
+  "name": "Data cleaning judgement",
+  "version": "v1",
+  "jobFamily": "Data",
+  "approvedBy": "[HR lead name]",
+  "approvedOn": "2026-09-26",
+  "criteria": [
+    { "skill": "Issue detection", "descriptor": "Spots duplicates, format drift and missing values." },
+    { "skill": "Method choice", "descriptor": "Picks a sensible handling strategy for each issue." },
+    { "skill": "Reasoning clarity", "descriptor": "Justifies choices rather than listing steps." },
+    { "skill": "Data-loss awareness", "descriptor": "Flags where cleaning could destroy real signal." }
+  ],
+  "excludedFromScoring": ["writing style", "grammar", "speed", "confidence", "personality"]
+}
