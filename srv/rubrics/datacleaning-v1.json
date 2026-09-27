@@ -2,7 +2,7 @@
   "name": "Data cleaning judgement",
   "version": "v1",
   "jobFamily": "Data",
-  "approvedBy": "[HR lead name]",
+  "approvedBy": "Ramya",
   "approvedOn": "2026-09-26",
   "criteria": [
     { "skill": "Issue detection", "descriptor": "Spots duplicates, format drift and missing values." },

@@ -50,7 +50,8 @@ async function scoreFallback({ answer, rubric }) {
   const skills = rubric.criteria.map(c => {
     const terms = SIGNALS[c.skill] || [];
     const present = terms.some(t => (answer || '').toLowerCase().includes(t));
-    const depth = Math.min(2, Math.floor(words / 70));
+    const matches = terms.filter(t => (answer || "").toLowerCase().includes(t)).length;
+    const depth = Math.min(3, matches) + (words > 120 ? 1 : 0);
     return {
       skill: c.skill,
       score: Math.min(9, (present ? 6 : 3) + depth),

@@ -2,7 +2,7 @@
   "name": "Debugging and code reasoning",
   "version": "v1",
   "jobFamily": "Software Engineering",
-  "approvedBy": "[HR lead name]",
+  "approvedBy": "Ramya",
   "approvedOn": "2026-09-26",
   "criteria": [
     { "skill": "Problem identification", "descriptor": "Locates the root cause, not just the symptom." },

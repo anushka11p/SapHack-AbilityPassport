@@ -2,7 +2,7 @@
   "name": "Support triage judgement",
   "version": "v1",
   "jobFamily": "Support",
-  "approvedBy": "[HR lead name]",
+  "approvedBy": "Ramya",
   "approvedOn": "2026-09-26",
   "criteria": [
     { "skill": "Impact assessment", "descriptor": "Ranks by user impact, not by order received." },
